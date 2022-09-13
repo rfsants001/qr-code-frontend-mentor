@@ -14,39 +14,35 @@ body {
     background-color:  var(--light-gray);
 }
 
-.container {
-    max-width: 1440px;
-    height: 100vh;
-    margin: 0 auto;
-    display: grid;
-    place-items: center;
-    isolation: isolate;
-}
-
-.container .qr-card {
+.qr-card {
     background-color: var(--white);
 
-    max-width: 250px;
+    max-width: 15.625rem;
     text-align: center;
 
-    border-radius: 20px;
+    border-radius: 1.25rem;
 
-    padding: 15px;
+    padding: 0.75rem;
+
+    margin: 20rem auto 10rem;
 }
 
-.container .qr-card img {
+.qr-card img {
     max-width: 100%;
-    border-radius: 8px;
+    border-radius: 0.5rem;
 }
 
-.container .qr-card h1 {
-    font-size: 18px;
+.qr-card h1 {
+    font-size: 1.125rem;
     color: var(--dark-blue);
+    margin-top: 1.25rem;
 }
 
-.container .qr-card p {
-    font-size: 15px;
+.qr-card p {
+    font-size: 0.75rem;
     color: var(--grayish-blue);
+    margin: 0.75rem 0;
+    padding: 0 0.75rem;
 }
 
 .attribution {
@@ -55,7 +51,7 @@ body {
 
 
 @media screen and (max-width: 375px){
-    .container {
-        max-width: 300px;
+    .qr-card {
+        margin: 2rem auto 10rem;
     }
 }
