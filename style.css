@@ -39,12 +39,12 @@ body {
     border-radius: 8px;
 }
 
-.container .qr-card .text-container h2 {
+.container .qr-card h1 {
     font-size: 18px;
     color: var(--dark-blue);
 }
 
-.container .qr-card .text-container p {
+.container .qr-card p {
     font-size: 15px;
     color: var(--grayish-blue);
 }
